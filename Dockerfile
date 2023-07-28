@@ -11,3 +11,4 @@ WORKDIR /app
 COPY . .
 
 CMD ["python", "bot.py"]
+Expose 3306 
